@@ -1,0 +1,45 @@
+body
+{
+    margin:0.5rem;
+    padding:0;
+    background-color:black;
+}
+h1
+{
+    text-align:center;
+    color:white;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    gap:40rem;
+}
+.container .box
+{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+button
+{
+    border:solid blue;
+    background-color: black;
+    color:white;
+}
+.bar {
+    background-color: lightblue;
+    width: 10px;
+    margin: 0 2px;
+    display: inline-block;
+}
+
+#sortingInfo
+{
+    color:green;
+}
+
+.bars
+{
+    margin:20px;
+}
